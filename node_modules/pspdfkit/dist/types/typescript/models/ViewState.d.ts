@@ -1,0 +1,68 @@
+import { Record } from "../../immutable/dist/immutable-nonambient";
+import { InteractionModeType } from '../enums/InteractionMode';
+import { LayoutModeType } from '../enums/LayoutMode';
+import { ScrollModeType } from '../enums/ScrollMode';
+import { SidebarModeType } from '../enums/SidebarMode';
+import { SidebarPlacementType } from '../enums/SidebarPlacement';
+import { ZoomModeType } from '../enums/ZoomMode';
+import { ShowSignatureValidationStatusModeType } from '../enums/ShowSignatureValidationStatusMode';
+import Instance from '../Instance';
+declare const ViewState_base: Record.Factory<{
+    currentPageIndex: number;
+    zoom: number | "AUTO" | "FIT_TO_WIDTH" | "FIT_TO_VIEWPORT" | "CUSTOM";
+    pagesRotation: number;
+    layoutMode: string;
+    scrollMode: string;
+    showToolbar: boolean;
+    enableAnnotationToolbar: boolean;
+    allowPrinting: boolean;
+    interactionMode: any;
+    readOnly: boolean;
+    showAnnotations: boolean;
+    showComments: boolean;
+    sidebarMode: any;
+    sidebarPlacement: string;
+    spreadSpacing: number;
+    pageSpacing: number;
+    keepFirstSpreadAsSinglePage: boolean;
+    viewportPadding: Readonly<{
+        horizontal: number;
+        vertical: number;
+    }>;
+    instance: any;
+    formDesignMode: boolean;
+    showSignatureValidationStatus: string;
+}>;
+export default class ViewState extends ViewState_base {
+    allowPrinting: boolean;
+    currentPageIndex: number;
+    instance: Instance | null | undefined;
+    interactionMode: InteractionModeType | null | undefined;
+    keepFirstSpreadAsSinglePage: boolean;
+    layoutMode: LayoutModeType;
+    pageSpacing: number;
+    pagesRotation: 0 | 90 | 180 | 270;
+    readOnly: boolean;
+    scrollMode: ScrollModeType;
+    showAnnotations: boolean;
+    showComments: boolean | null | undefined;
+    showToolbar: boolean;
+    enableAnnotationToolbar: boolean;
+    sidebarMode: SidebarModeType | null | undefined;
+    sidebarPlacement: SidebarPlacementType;
+    spreadSpacing: number;
+    viewportPadding: {
+        horizontal: number;
+        vertical: number;
+    };
+    zoom: ZoomModeType | number;
+    formDesignMode: boolean;
+    showSignatureValidationStatus: ShowSignatureValidationStatusModeType;
+    zoomIn(): ViewState;
+    zoomOut(): ViewState;
+    rotateLeft(): ViewState;
+    rotateRight(): ViewState;
+    goToNextPage(): ViewState;
+    goToPreviousPage(): ViewState;
+}
+export {};
