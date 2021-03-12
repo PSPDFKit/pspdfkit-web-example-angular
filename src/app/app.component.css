@@ -1,0 +1,29 @@
+:host {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+}
+
+.toolbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  padding: 0 24px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.pspdfkit-container {
+  height: calc(100% - 64px);
+}
