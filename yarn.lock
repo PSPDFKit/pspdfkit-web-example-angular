@@ -5040,9 +5040,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^3.0.0:
   version "3.0.0"
@@ -6603,10 +6603,10 @@ psl@^1.1.28:
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
   integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
 
-pspdfkit@2020.4.2:
-  version "2020.4.2"
-  resolved "https://registry.yarnpkg.com/pspdfkit/-/pspdfkit-2020.4.2.tgz#365fb19ab263cd9a747eb7c61d7d6858acf1e654"
-  integrity sha512-Q7XpuKERUMEvm0qwe+BQuxRaOYw95e8K5oza7bSj1fC4srC6uWSVjEdf7msA9YqHLOzvifVWgYoi8Khpyl+uWw==
+pspdfkit@2021.3.0:
+  version "2021.3.0"
+  resolved "https://registry.yarnpkg.com/pspdfkit/-/pspdfkit-2021.3.0.tgz#ff5bc9dfdcf52f2479233bd5d1afa9df70e584f3"
+  integrity sha512-F+ixboIRjHopn51hbV8MX2whdJLGv7yTlvmx7YdFolxKPmY+RUgqY4JjdE3lS6z4aDd2Pb/N2nTw4mNZT7y1xg==
 
 public-encrypt@^4.0.0:
   version "4.0.3"
