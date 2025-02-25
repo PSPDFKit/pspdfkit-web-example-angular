@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import PSPDFKit from 'pspdfkit';
+import PSPDFKit from '@nutrient-sdk/viewer';
 
 @Component({
   selector: 'app-root',
